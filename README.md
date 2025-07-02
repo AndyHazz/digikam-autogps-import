@@ -78,7 +78,7 @@ Your `.gpx` files must be stored in a known directory, one per day, using the `Y
 4. **Start Logging:**
    - Tap the red start button in GPSLogger to begin recording
    - It will automatically create a file named `YYYYMMDD.gpx` and upload it every 60 mins/daily/when you press stop depending on your settings.
-   -- I use Llamalab's Automate android app to start/stop tracking whenever I disconnect/reconnect from my wifi. This means whenever I get home, tracking is stopped and the gpx file immediately uploaded. Flow shared here: https://llamalab.com/automate/community/flows/51100
+     - I use Llamalab's Automate android app to start/stop tracking whenever I disconnect/reconnect from my wifi. This means whenever I get home, tracking is stopped and the gpx file immediately uploaded. Flow shared here: https://llamalab.com/automate/community/flows/51100
 
 5. **Sync to your computer:**
    - Use Google Drive client, `rclone`, or another sync method to mirror the folder locally (e.g. to `/mnt/gdrive/GPSLogger for Android/`)
