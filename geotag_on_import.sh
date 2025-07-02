@@ -40,7 +40,7 @@ echo "Using GPX file: $GPX_FILE"
 
 # ========= GEO-TAGGING =========
 echo "Geotagging $PHOTO using exiftool with offset $TIMEZONE_OFFSET..."
-$EXIFTOOL -overwrite_original -geotag "$GPX_FILE" "-geosync=$TIMEZONE_OFFSET" "$PHOTO"
+$EXIFTOOL -overwrite_original -geotag "$GPX_FILE" "-geolocate=geotag" "-geosync=$TIMEZONE_OFFSET" "$PHOTO"
 
 # ========= SHOW RESULT =========
 $EXIFTOOL -GPSLatitude -GPSLongitude "$PHOTO"
